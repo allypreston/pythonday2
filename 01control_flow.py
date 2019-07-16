@@ -44,11 +44,9 @@
 #     print('live your best life')
 
 weather = input('what is the weather like? ').lower().strip()
-weather = weather.split(' ')
-print(weather)
 if 'stormy' in weather and 'rainy' in weather:
     print('take an jacket')
-elif 'rainy' in  weather or 'foggy' in weather:
+elif 'rainy' in weather or 'foggy' in weather:
     print('take an umbrella')
 elif 'sunny' in weather:
     print('take your sunglasses')
