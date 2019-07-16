@@ -16,3 +16,15 @@ import time
 #     time.sleep(1)
 # print('loop ended')
 
+#further loops
+
+list_data = [1, 2, 3, 4, 5]
+embedded_data = [[1,2,3],[5,6,7]]
+
+# for num in list_data:
+#     print(num)
+
+for data in embedded_data:
+    print(data)
+    for number in data:
+        print(number)
