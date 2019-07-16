@@ -1,6 +1,7 @@
 game = 'playing'
-restart = 0
+
 while True:
+    restart = 0
     print("You are Ollie, a likeable young guy in search of love. Our story begins when Ollie comes across an attractive")
 
     user_response = input("Will you swipe left or right?: (1)Right (2)Left >").lower().strip()
