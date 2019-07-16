@@ -57,9 +57,3 @@ embedded_dict_data = {
         'money': 400
     }
 }
-
-
-for item in embedded_dict_data.values():
-    print(item)
-    for entry in item:
-        print(entry + ':', item[entry])
