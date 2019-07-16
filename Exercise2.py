@@ -13,3 +13,4 @@ for team in spartans:
         print('hello', name, 'you are on team', counter)
     counter += 1
 
+

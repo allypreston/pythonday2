@@ -4,7 +4,7 @@ import time
 
 # syntax
 # for <placeholder> in <list>:
-    # run block of cold
+    # run block of code
 
 # x_crazy_landlords = ['Cruella de Ville', 'Donald Duck', 'Popeye the Maltese']
 # counter = 0
@@ -18,13 +18,48 @@ import time
 
 #further loops
 
-list_data = [1, 2, 3, 4, 5]
-embedded_data = [[1,2,3],[5,6,7]]
+# list_data = [1, 2, 3, 4, 5]
+# embedded_data = [[1,2,3],[5,6,7]]
 
 # for num in list_data:
 #     print(num)
+#
+# for data in embedded_data:
+#     print(data)
+#     for number in data:
+#         print(number)
 
-for data in embedded_data:
-    print(data)
-    for number in data:
-        print(number)
+# for loops using dictionaries
+# syntax is the same
+
+# for <placeholder> in dictionary:
+    # run block of code
+
+# dict_data = {
+#     'name': 'Bronson',
+#     'money': 200
+#}
+
+# for key_placeholder in dict_data:
+#     print(key_placeholder + ':',dict_data[key_placeholder])
+
+embedded_dict_data = {
+    1:{
+        'name': 'Bronson',
+        'money': 200
+    },
+    2:{
+        'name': 'Tania',
+        'money': 300
+    },
+    3:{
+        'name': 'Tylor',
+        'money': 400
+    }
+}
+
+
+for item in embedded_dict_data.values():
+    print(item)
+    for entry in item:
+        print(entry + ':', item[entry])
